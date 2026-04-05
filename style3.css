@@ -1,0 +1,97 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* BODY */
+body {
+  background: #d90000;
+  color: white;
+}
+
+/* PROMO */
+.promo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 100px 80px;
+  position: relative;
+}
+
+.imagem img {
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+
+.conteudo {
+  max-width: 500px;
+}
+
+.conteudo h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.conteudo p {
+  margin-bottom: 30px;
+}
+
+.preco .novo {
+  font-size: 60px;
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+/* BOTÃO */
+.conteudo button {
+  padding: 15px 30px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 30px;
+}
+
+/* VOLTAR */
+.btn-voltar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+
+  .promo {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .imagem img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .conteudo h2 {
+    font-size: 32px;
+  }
+
+  .preco .novo {
+    font-size: 40px;
+  }
+
+  .conteudo button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .btn-voltar {
+    top: 10px;
+    right: 10px;
+  }
+}
