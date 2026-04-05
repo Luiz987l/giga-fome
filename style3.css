@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #d90000;
+  color: white;
+}
+
+/* seção inteira */
+.promo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 100px;
+}
+
+/* imagem */
+.imagem img {
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+
+/* conteúdo */
+.conteudo {
+  max-width: 500px;
+}
+
+/* título */
+.conteudo h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+/* descrição */
+.conteudo p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* preço */
+.preco {
+  margin-bottom: 30px;
+}
+
+.preco .antigo {
+  font-size: 20px;
+  opacity: 0.7;
+  margin-right: 10px;
+}
+
+.preco .novo {
+  font-size: 60px;
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+/* botão */
+.conteudo button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.conteudo button:hover {
+  background: white;
+  color: red;
+}
+
+.btn-voltar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn-voltar button {
+  padding: 10px 20px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.promo {
+  position: relative; /* ESSENCIAL */
+}

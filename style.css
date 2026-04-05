@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #ff5a00, #ff1e00);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 100px;
+}
+
+header {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+header h1 {
+  color: white;
+}
+
+header button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.texto {
+  color: white;
+  max-width: 500px;
+}
+
+.texto h2 {
+  font-size: 60px;
+}
+
+.texto span {
+  color: #8b0000;
+}
+
+.botoes {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+/* BOTÕES */
+.btn {
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.whatsapp {
+  background: #25D366;
+  color: white;
+}
+
+.cardapio {
+  background: white;
+  color: black;
+}
+
+.imagem img {
+  width: 500px;
+}
+
+.info {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+
+.promo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.imagem img {
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.preco .novo {
+  font-size: 50px;
+  color: yellow;
+  font-weight: bold;
+}
